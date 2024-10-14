@@ -1,0 +1,490 @@
+@font-face {
+    font-family: PlayfairDisplayRegular;
+    src: url(./fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: PlayfairDisplayBold;
+    src: url(./fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: ProximaNovaTThin;
+    src: url(./fonts/ProximaNovaT-Thin.ttf);
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoLight;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: ProximaNovaFont;
+    src: url(./fonts/ProximaNovaFont.otf);
+}
+
+
+* {
+    font-family: PlayfairDisplayRegular;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerbg {
+    padding-top: 20px;
+    background-image: url(./image/bg2.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.headertag {
+    display: flex;
+    justify-content: center;
+}
+
+.headerul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.headerul li {
+    margin: 1.3em 1.3em;
+    cursor: pointer;
+}
+
+.liIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.headerdiv {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.headerdiv1 {
+    width: 550PX;
+    text-align: center;
+}
+
+.headerh1first {
+    font-family: PlayfairDisplayRegular;
+    font-size: 65px;
+}
+
+.headerh1Second {
+    margin-top: -20px;
+    font-family: PlayfairDisplayBold;
+    font-size: 65px;
+    color: #ee443f;
+}
+
+.headerpara {
+    font-size: 18px;
+}
+
+.headerbtn {
+    margin-top: 26px;
+}
+
+.headerbtn1 {
+    background-color: #ee443f;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 8px 30px;
+}
+
+.headerbtn2 {
+    background-color: #ee443f;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 8px 30px;
+    margin-left: 12px;
+
+}
+
+.headerdeliverdiv {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 60px;
+
+
+}
+
+.headerdelivericon {
+    margin-top: 48px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.headerh1div {
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.headerh1div {
+    text-align: center;
+}
+
+.headerh1div h1 {
+    font-size: 30px;
+}
+
+.headerh1div p {
+    font-family: ProximaNovaTThin;
+}
+
+.headerdisdiv {
+    background-color: #ee443f;
+    text-align: center;
+    padding: 0px 5px;
+    border-bottom: 8px solid #ee443f;
+    border-bottom-right-radius: 90px 25px;
+    margin-bottom: 19px;
+}
+
+.headerdisdiv h2 {
+    font-size: 75px;
+    margin-top: -19px;
+}
+
+.headerdisdiv h3 {
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 9px;
+    padding-bottom: 16.5px;
+}
+
+
+
+
+.stn2 {
+    display: flex;
+    justify-content: start;
+    padding-bottom: 188px;
+}
+
+.st2headingdiv2 {
+    padding-top: 110px;
+    width: 340px;
+}
+
+.stn2headingdiv {
+    padding-top: 110px;
+    text-align: right;
+    max-width: 370px;
+}
+
+.stn2headingdiv h2 {
+    font-size: 50px;
+}
+
+.stn2headingdiv h1 {
+    margin-top: -65px;
+    font-size: 124px;
+    font-family: PlayfairDisplayBold;
+    color: #ee443f;
+}
+
+.stnbtn1 {
+    margin-top: 20px;
+    background-color: #ee443f;
+    color: #ffffff;
+    border-radius: 25px;
+    padding: 8px 30px;
+}
+
+.stn2headingdiv1 {
+    padding-top: 80px;
+    margin-left: 70px;
+    max-width: 460px;
+}
+
+.stn2headingdiv3 {
+    position: relative;
+
+}
+
+.stn2headingdiv3 h1 {
+    width: 760px;
+    rotate: 90deg;
+    font-size: 110px;
+    position: absolute;
+    bottom: 250px;
+    right: -560px;
+    color: #f3f3f3;
+    font-family: PlayfairDisplayBold;
+}
+
+
+
+.stn3 {
+    background-image: url(./image/bg3.png);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -178px;
+    padding-top: 178px;
+    padding-bottom: 190px;
+    color: #ffffff;
+}
+
+.stn3heading {
+    margin-top: 50px;
+    text-align: center;
+    width: 510px;
+    padding: 12px;
+}
+
+.stn3heading h2 {
+    font-size: 48px;
+}
+
+.stn3heading h1 {
+    font-size: 125px;
+    font-family: PlayfairDisplayBold;
+    margin-top: -60px;
+}
+
+.stn3heading p {
+    margin-top: -20px;
+}
+
+.stn3btndiv {
+    margin-top: 33px;
+    font-size: 19px;
+}
+
+.stn3btn1 {
+    background-color: #b92421;
+    padding: 3px 15px;
+}
+
+.stn3btn2 {
+    background-color: #000000;
+    padding: 3px 15px;
+}
+
+.stn3foodheading {
+    font-size: 25px;
+}
+
+.stn3foodpara {
+    font-size: 13px;
+    width: 290px;
+}
+
+.stn3foodprice {
+    font-size: 27px;
+    margin-right: 12px;
+}
+
+.stn3foodbtn {
+    background-color: #000000;
+    padding: 6px 15px;
+    border-radius: 23.5px;
+}
+
+.stn3foodbox {
+    border-bottom: 1px dashed #f3f3f3;
+    margin: 10px 50px;
+    padding-bottom: 15px;
+}
+
+.stn3foodbox1 {
+    margin: 10px 50px;
+    padding-bottom: 15px;
+}
+
+.stn3foodboxs1 {
+    border-left: 1px dashed #f3f3f3;
+}
+
+.stn3shawarmafoodbox {
+    padding-bottom: 170px;
+}
+
+
+
+.reviewsideimg {
+    width: 45em;
+    margin-top: -200px;
+}
+
+.reviewside {
+    margin: 50px 60px;
+}
+
+.reviewside h2 {
+    font-size: 50px;
+}
+
+.reviewside h1 {
+    font-size: 75px;
+    font-family: PlayfairDisplayBold;
+    color: #ee443f;
+
+}
+
+.reviewside h3 {
+    margin-top: 17px;
+    font-size: 22px;
+    color: #ee443f;
+}
+
+.reviewsidepara1 {
+    width: 414px;
+    font-size: 18px;
+}
+
+.reviewsidepara2 {
+    font-size: 13px;
+}
+
+.reviewsidepara3 {
+    margin-top: 20px;
+    font-size: 6px;
+}
+
+.reviewsdot1 {
+    background-color: #ee443f;
+    color: #ee443f;
+    border-radius: 50%;
+    padding: 0px 3px 0px 3px;
+    cursor: pointer;
+}
+
+.reviewsdot2 {
+    background-color: #000000;
+    color: #000000;
+    border-radius: 50%;
+    padding: 0px 3px 0px 3px;
+    max-height: 2px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+
+}
+
+.footerdiv1 {
+    width: 280px;
+    padding: 0px 10px;
+    margin: 0px 10px;
+}
+
+.footerdiv1 p {
+
+    font-size: 15px;
+    font-family: RobotoRegular;
+    padding: 0px 10px;
+    margin-top: 20px;
+}
+
+.footerdiv2 {
+    width: 190px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.footerdiv2 h2 {
+    font-family: ProximaNovaFont;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footerdiv2 li {
+    font-family: ProximaNovaFont;
+    font-size: 14px;
+    color: #d0d1d2;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.footerdiv3 {
+    width: 245px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.footerdiv3 h2 {
+    font-family: ProximaNovaFont;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.footerdiv3 li {
+    font-family: ProximaNovaFont;
+    font-size: 14px;
+    color: #d0d1d2;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.footerdiv4 {
+    width: 290px;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.footerdiv4 h2 {
+    font-family: ProximaNovaFont;
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.footerdiv4 p {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: #d0d1d2;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.inputdiv input {
+    border-radius: 5px;
+    padding: 8px 18px;
+    color: #000000;
+    outline: none;
+}
+
+.inputdiv button {
+    background-color: #ee443f;
+    margin-left: -7px;
+    border-radius: 5px;
+    padding: 8px 13px;
+}
+
+.footerend {
+    background-color: #000000;
+    color: #d0d1d2;
+    text-align: center;
+    padding: 25px 5px;
+    border-top: 1px solid #525252;
+}
+.footerend h3{
+    font-family: RobotoRegular;
+    font-size: 15px;
+}
